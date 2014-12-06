@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MembersTableViewController.h
 //  TeamMembersApp
 //
 //  Created by Aleksandra Zajda on 12/6/14.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface MembersTableViewController : UITableViewController
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) NSArray *members;
 
 @end
-
